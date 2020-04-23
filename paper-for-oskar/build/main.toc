@@ -1,0 +1,6 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {american}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Introduction}{1}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Conclusion}{1}{section*.3}

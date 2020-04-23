@@ -1,0 +1,20 @@
+[0] Config.pm:302> INFO - This is Biber 2.11
+[1] Config.pm:305> INFO - Logfile is 'build/main.blg'
+[39] biber:313> INFO - === Thu Apr 23, 2020, 15:51:23
+[79] Biber.pm:371> INFO - Reading 'build/main.bcf'
+[160] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
+[182] Biber.pm:3976> INFO - Processing section 0
+[198] Biber.pm:4136> INFO - Looking for bibtex format file 'lit.bib' for section 0
+[204] bibtex.pm:1500> INFO - LaTeX decoding ...
+[219] bibtex.pm:1316> INFO - Found BibTeX data source 'lit.bib'
+[239] Utils.pm:193> WARN - BibTeX subsystem: /tmp/OXh2KE8i3v/lit.bib_253.utf8, line 13, warning: 1 characters of junk seen at toplevel
+[242] Utils.pm:193> WARN - BibTeX subsystem: /tmp/OXh2KE8i3v/lit.bib_253.utf8, line 21, warning: 1 characters of junk seen at toplevel
+[245] Utils.pm:193> WARN - BibTeX subsystem: /tmp/OXh2KE8i3v/lit.bib_253.utf8, line 28, warning: 1 characters of junk seen at toplevel
+[245] Utils.pm:193> WARN - BibTeX subsystem: /tmp/OXh2KE8i3v/lit.bib_253.utf8, line 38, warning: 1 characters of junk seen at toplevel
+[265] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[265] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[266] Biber.pm:3804> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[267] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[270] bbl.pm:617> INFO - Writing 'build/main.bbl' with encoding 'UTF-8'
+[272] bbl.pm:720> INFO - Output to build/main.bbl
+[279] Biber.pm:110> INFO - WARNINGS: 4

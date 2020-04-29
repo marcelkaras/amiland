@@ -1,6 +1,22 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {american}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Introduction}{1}{section*.2}
+\contentsline {section}{Thesis | First Draft}{3}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Conclusion}{1}{section*.3}
+\contentsline {section}{Introduction}{3}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Oil Consumption}{3}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{UN Climate and Energy Goals}{4}{section*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Example of Sweden}{4}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Example of New York}{4}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Example of China}{4}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Oil Lobby}{4}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Progress of Implementation}{4}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Conclusion}{4}{section*.11}

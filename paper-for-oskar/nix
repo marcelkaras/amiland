@@ -1,0 +1,28 @@
+\begin{titlepage}
+	\centering
+	% \includegraphics[width=0.15\textwidth]{/graphics/logoWWU.png}\par\vspace{1cm}
+	% {\scshape\large Western Washington University\par}
+	% \vspace{2cm}
+	{\large What plans and ideas are existing in the world community to prevent an economic disaster 
+    when the oil resources will dry up in eight years? Which organizations might have worked out 
+    the best masterplan, and is this even enough?\par}
+	\vspace{1cm}
+	{\large\itshape Marcel Karas\par}
+	\vfill
+	supervised by\par
+	Oskar Norlander \textsc{Brown}
+	\vfill
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}
+
+% \begin{table}
+%   \caption{Sample Basic Table}
+%   \label{tab:BasicTable}
+%   \begin{tabular}{@{}llr@{}}         \toprule
+%   \multicolumn{2}{c}{Item}        \\ \cmidrule(r){1-2}
+%   Animal    & Description & Price \\ \midrule
+%   Gnat      & per gram    & 13.65 \\
+%   \end{tabular}
+% \end{table}
+

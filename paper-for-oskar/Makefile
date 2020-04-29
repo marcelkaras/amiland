@@ -1,6 +1,6 @@
 all: build/main.pdf
 
-build/main.pdf: main.tex | build
+build/main.pdf: main.tex content/* | build
 	TEXINPUTS=build: \
 	  BIBINPUTS=build: \
 	  max_print_line=1048576 \
@@ -11,13 +11,13 @@ build/main.pdf: main.tex | build
 	  --halt-on-error \
 	main.tex
 
-main.tex: header.tex lit.bib content/*
+main.tex: header.tex lit.bib content/* graphics/*
 
 build:
 	mkdir -p build
 
-# graphics:
-# 	mkdir -p graphics
+graphics:
+	mkdir -p graphics
 
 clean:
 	rm -rf build

@@ -1,21 +1,41 @@
+\documentclass[
+    man,
+    12pt,
+    american,
+    donotrepeattitle
+]{apa6}
 
-\documentclass[doc,12pt,biblatex,donotrepeattitle,floatsintext]{apa6e}
-\usepackage{float}
-\restylefloat{table}
 \usepackage[american]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{epstopdf}
 \usepackage{csquotes}
-\usepackage[style=apa,sortcites=true,sorting=nyt,uniquename=false]{biblatex}
-\DeclareLanguageMapping{american}{american-apa}
-\addbibresource{lit.bib}
-\usepackage[T1]{fontenc}
-\usepackage{lmodern}
-\usepackage{subfig}
-\usepackage{bookmark}
+\usepackage[hidelinks]{hyperref}
+ \usepackage{float}
+ \restylefloat{table}
+ \usepackage[T1]{fontenc}
+ \usepackage{lmodern}
+ \usepackage{geometry}
+ \usepackage{subfig}
+ \usepackage{bookmark}
+\usepackage[
+    style=apa,
+    backend=biber,
+    sortcites=true,
+    sorting=nyt,
+%    isbn=false,
+%    url=false,
+%    doi=false,
+%    eprint=false,
+    hyperref=false,
+    backref=false,
+%    firstinits=false,
+]{biblatex}
 
-\title{What plans and ideas are existing in the world community to prevent an economic disaster 
-when the oil resources will dry up in eight years? Which organizations might have worked out 
-the best masterplan, and is this even enough?}
-\shorttitle{Oil free econonmies}
-\author{Marcel Karas}
-\date{23/4/2020}
-%\affiliation{"Western Washington University IEP"}
+\DeclareLanguageMapping{american}{american-apa}
+
+% maps apacite commands to biblatex commands
+\let \citeNP \cite
+\let \citeA \textcite
+\let \cite \parencite
+
+\addbibresource{lit.bib}

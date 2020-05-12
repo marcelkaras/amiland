@@ -1,7 +1,0 @@
-\begin{figure*}[hbt]
-\ifnextchar[{\eatarg}{}
-
-    \includegraphics[width=0.2\textwidth]{graphics/logoWWU.png}
-    \caption{example Figure Caption Text.}
-    \label{fig:figures/figureName}
-\end{figure*}

@@ -18,6 +18,7 @@
  \renewcommand{\dateseparator}{/}
  \usepackage{geometry}
  \usepackage{subfig}
+ \usepackage{gensymb}
  \usepackage{bookmark}
 \usepackage[
     style=apa,
@@ -34,7 +35,7 @@
 ]{biblatex}
 
 \DeclareLanguageMapping{american}{american-apa}
-
+\newcommand\figref{figure~\ref}
 % maps apacite commands to biblatex commands
 \let \citeNP \cite
 \let \citeA \textcite
